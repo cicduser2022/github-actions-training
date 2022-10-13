@@ -3,12 +3,12 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-resource "aws_s3_bucket" "example_bucket" {
-  bucket = "my-tf-test-bucket-micky-19287319837892137"
-  acl    = "private"
+resource "aws_s3_bucket" "vnet-remote-state2" {
+  bucket = "my-tf-test-bucket-micky-19287319837892137222"
+ 
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket2"
     Environment = "Dev"
   }
 }
