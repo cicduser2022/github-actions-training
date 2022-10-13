@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "my-tf-test-bucket-miguel-tfstate"
+    bucket = "vnet-remote-state"
     key    = "default-infrastructure.tfstate"
     region = "us-east-1"
   }
