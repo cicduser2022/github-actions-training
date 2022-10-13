@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "vnet-remote-state2" {
   acl    = "public"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket2"
     Environment = "Dev"
   }
 }
