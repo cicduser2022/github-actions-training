@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "vnet-remote-state2" {
-  bucket = "my-tf-test-bucket-micky-19287319837892137"
+  bucket = "my-tf-test-bucket-micky-19287319837892137222"
   acl    = "public"
 
   tags = {
